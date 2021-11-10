@@ -10,7 +10,7 @@ module.exports = {
         subSidebar: 'auto',
         type: 'blog',
         authorAvatar: '/GlobalAvatar.png',
-        permalink: "/:year/:month/:day/:slug",
+        permalink: "/posts/:slug",
         sidebar: {
           '/documentation/': getGuideSidebar('Guide','Sources'),
           '/zh/documentation/': getGuideSidebar('指南','资源库')
