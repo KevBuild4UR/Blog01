@@ -195,3 +195,34 @@ switch (iParam0)
 	}
 	return "INVALID";
 ```
+
+## 04
+```c
+bool bVar0;
+	
+	iParam0->f_258 = 332;
+	func_2103(iParam0);
+	func_75("MC_VAROBJ_T");
+	func_2102(0, 0, 0, 0, 0);
+	func_74(1, 1, 0, 0, 0);
+	func_73(1, 2, 1, 1, 1);
+	Global_22669 = 0.33f;
+	bVar0 = Global_4456448.f_139695 != -1;
+	if (func_1472(iParam0) == 0)
+	{
+		func_2102(0, 0, 0, 0, 0);
+	}
+	func_69(0, func_2243(Global_4456448.f_139695), 0, 1, 0, 0, 0);
+	if (bVar0)
+	{
+		func_69(0, "MC_VAROPT_ENA", 0, 1, 0, 0, 0);
+	}
+	else
+	{
+		func_69(0, "MC_VAROPT_DIS", 0, 1, 0, 0, 0);
+	}
+	iParam0->f_526++;
+	func_69(iParam0->f_526, "MC_VAROBJ_0", 1, bVar0, 0, 0, 0);
+	iParam0->f_2[iParam0->f_526] = 350;
+	iParam0->f_526++;
+```
