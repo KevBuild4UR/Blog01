@@ -9,6 +9,7 @@ module.exports = {
         codeTheme: 'okaidia',
         subSidebar: 'auto',
         type: 'blog',
+        noFoundPageByTencent: false,
         authorAvatar: '/GlobalAvatar.png',
         permalink: "/posts/:slug",
         sidebar: {
